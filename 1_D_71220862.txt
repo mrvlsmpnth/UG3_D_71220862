@@ -1,0 +1,11 @@
+a =input("Masukkan Nilai Curah Hujan :")
+if a==0:
+    print('cuacacerah/berawan')
+if a<=20:
+    print('curah hujan ringan')
+if a<=50:
+    print('Curah Hujan Sedang')
+if a<=100:
+    print('Curah Hujan Lebat')
+else: print('paan')
+
