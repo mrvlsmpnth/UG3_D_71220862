@@ -1,0 +1,6 @@
+alpha = int(input('awal deret: '))
+omega = int(input('akhir deret: '))
+ 
+for i in range(alpha,omega+1):
+  if (i % 2 == 0):
+    print(i, end=" ")
