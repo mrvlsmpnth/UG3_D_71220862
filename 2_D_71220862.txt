@@ -1,0 +1,2 @@
+pembelian = int(input("Jumlah pembelian: "))
+diskon = 0.1 if pembelian > 100000 else 0
